@@ -8,7 +8,7 @@ function Header() {
           <img src={Logo} alt="logo" className='logo' />
           <ul className='header-menu'>
             <li>Home</li>
-            <li>Programs</li>
+            <li>Categories</li>
             <li>Why Us?</li>
             <li>Plans</li>
             <li>Testimonials</li>
