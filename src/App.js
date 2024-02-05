@@ -1,8 +1,9 @@
-
-import './App.css';
-import Categories from './components/Categories/Categories';
-import Hero from './components/Hero/Hero';
-import Reasons from './components/Reasons/Reasons';
+import "./App.css";
+import Categories from "./components/Categories/Categories";
+import Hero from "./components/Hero/Hero";
+import Plans from "./components/Plans/Plans";
+import Reasons from "./components/Reasons/Reasons";
+import Testimonials from "./components/Testimonials/Testimonials";
 
 function App() {
   return (
@@ -10,7 +11,9 @@ function App() {
       <div className="App">
         <Hero />
         <Categories />
-        <Reasons/>
+        <Reasons />
+        <Plans />
+        <Testimonials />
       </div>
     </>
   );
